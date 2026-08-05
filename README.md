@@ -44,36 +44,37 @@ The dataset serves as the foundation for performing data analysis, visualization
 
 ---
 
-## 📑 Project Workflow
+## 📋 Business Analytics Workflow
 
-Dataset Collection
+📂 Data Collection
         │
         ▼
-Data Understanding
+🔍 Data Understanding
         │
         ▼
-Data Cleaning & Preprocessing
+🧹 Data Cleaning & Preparation
         │
         ▼
-Exploratory Data Analysis (EDA)
+📊 Exploratory Data Analysis (EDA)
         │
         ▼
-Data Visualization
+📈 Data Visualization
         │
         ▼
-Statistical Analysis
+📐 Statistical Analysis
         │
         ▼
-Machine Learning
+🤖 Predictive Modeling
         │
         ▼
-Business Insights
+💼 Business Insights
         │
         ▼
-Recommendations & Conclusion
+🎯 Strategic Recommendations
+        │
+        ▼
+📄 Final Report
 ```
-## 📌 Expected Outcomes
-
 Through this project, we aim to:
 
 - Identify significant factors influencing healthcare insurance claims.
