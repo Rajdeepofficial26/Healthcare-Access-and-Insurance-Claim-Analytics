@@ -1,30 +1,44 @@
 ---
-title: "Heathcare Access and Insurance Claim Analytics"
+title: "Healthcare Access and Insurance Claim Analytics"
 author: "Rajdeep Mandal"
-date: "2026-08-05"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Healthcare Access and Insurance Claim Analytics
 
-## R Markdown
+## Introduction
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+The healthcare insurance industry generates a large volume of data through policy enrollments, medical treatments, hospital visits, and insurance claims. Analyzing this data helps insurance providers understand claim patterns, identify key factors influencing healthcare costs, improve claim processing efficiency, and support data-driven decision-making.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+This project applies business analytics techniques to explore healthcare insurance claim data, uncover meaningful trends, and develop predictive insights. Using Python-based data analysis, visualization, and machine learning techniques, the study aims to demonstrate how analytics can support better operational and business decisions within the healthcare insurance sector.
 
-```{r cars}
-summary(cars)
-```
+---
 
-## Including Plots
+## Problem Statement
 
-You can also embed plots, for example:
+Healthcare insurance providers process a significant number of claims every day. Variations in patient demographics, medical conditions, lifestyle factors, and treatment costs often make claim assessment a complex process. Without effective analytical methods, identifying important patterns and predicting claim outcomes can be challenging.
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+The objective of this project is to analyze healthcare insurance claim data to understand the factors affecting insurance claims, identify relationships between different variables, and generate actionable business insights that can improve claim management and decision-making.
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+---
+
+## Objectives
+
+The primary objectives of this project are:
+
+- To perform exploratory data analysis (EDA) on healthcare insurance claim data.
+- To clean and preprocess the dataset for meaningful analysis.
+- To identify important factors influencing insurance claim amounts.
+- To visualize healthcare and insurance trends using appropriate graphical techniques.
+- To build predictive models for estimating insurance claim outcomes.
+- To derive business insights that can assist insurance companies in improving operational efficiency and customer service.
+
+---
+
+## Dataset
+
+The dataset used in this project has been obtained from Kaggle, it contains healthcare and insurance-related information, including demographic details, lifestyle attributes, and medical insurance charges.
+
+The dataset includes variables such as age, gender, body mass index (BMI), smoking status, number of dependents, residential region, and insurance charges. These features provide a suitable foundation for performing business analytics, statistical analysis, data visualization, and predictive modeling.
+
+The dataset has been selected because it closely represents real-world healthcare insurance scenarios and is widely used for academic learning and analytical projects.
