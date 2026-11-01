@@ -189,7 +189,6 @@ The dataset is cleaned and preprocessed before model training.
 
 ---
 
-
 ## 📸 Output
 
 The application generates:
@@ -206,10 +205,6 @@ The application generates:
 ## 👨‍💻 Author
 
 **Rajdeep Mandal**
-
-B.Tech – Computer Science & Engineering (Data Science)
-
-Heritage Institute of Technology, Kolkata
 
 ---
 
