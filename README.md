@@ -1,97 +1,216 @@
-# 🏥 Healthcare Access and Insurance Claim Analytics
 
-> **RAJDEEP MANDAL**  
->
-## 📖 Project Overview
+# 🏥 HealthSure AI – AI-Powered Health Insurance Recommendation System
 
-Healthcare organizations and insurance providers generate enormous volumes of data every day through patient records, medical treatments, hospital visits, and insurance claims. Transforming this data into meaningful insights is essential for improving operational efficiency, enhancing customer experience, and enabling informed business decisions.
+## 📌 Project Overview
 
-This project presents a comprehensive business analytics study on **Healthcare Access and Insurance Claim Analytics**. Using data-driven techniques, the project explores healthcare insurance data to identify trends, understand the factors influencing insurance claims, and generate actionable business insights. The analysis combines data preprocessing, exploratory data analysis (EDA), visualization, statistical methods, and machine learning to support evidence-based decision-making.
+**HealthSure AI** is an AI-powered Health Insurance Recommendation System inspired by platforms like **Policybazaar**. The application analyzes a user's personal information, lifestyle, medical history, and insurance preferences to generate a personalized health insurance quote.
 
----
-
-## 🎯 Project Objectives
-
-The primary objectives of this project are to:
-
-- 📊 Analyze healthcare insurance claim data using Business Analytics techniques.
-- 🧹 Perform data cleaning and preprocessing to improve data quality.
-- 📈 Conduct Exploratory Data Analysis (EDA) to uncover meaningful patterns.
-- 📉 Visualize healthcare and insurance trends through interactive and informative charts.
-- 🤖 Build predictive machine learning models for insurance-related insights.
-- 💡 Generate business recommendations that can support insurance providers in improving operational efficiency and decision-making.
+The project combines **Business Analytics**, **Machine Learning**, and **Generative AI** to estimate insurance premiums and provide an AI-generated insurance report.
 
 ---
 
-## 📂 Dataset
+## 🎯 Objectives
 
-The dataset used in this project has been obtained from **Kaggle** and contains healthcare insurance-related information, including patient demographics, lifestyle characteristics, medical expenses, and insurance charges.
-
-The dataset serves as the foundation for performing data analysis, visualization, statistical exploration, and predictive modeling within a real-world healthcare insurance context.
-
----
-
-## ⚙️ Technologies & Tools
-
-- 🐍 Python
-- 📊 Pandas
-- 🔢 NumPy
-- 📉 Matplotlib
-- 🎨 Seaborn
-- 🤖 Scikit-learn
-- 📝 R Markdown
-- 🌐 Git & GitHub
+- Develop a smart health insurance recommendation system.
+- Predict insurance premiums based on customer information.
+- Provide personalized insurance recommendations using AI.
+- Demonstrate the application of Business Analytics in the insurance domain.
+- Build an interactive Jupyter Notebook application for insurance quotation.
 
 ---
 
-## 📋 Business Analytics Workflow
+## ✨ Features
 
-📂 Data Collection
-        │
-        ▼
-🔍 Data Understanding
-        │
-        ▼
-🧹 Data Cleaning & Preparation
-        │
-        ▼
-📊 Exploratory Data Analysis (EDA)
-        │
-        ▼
-📈 Data Visualization
-        │
-        ▼
-📐 Statistical Analysis
-        │
-        ▼
-🤖 Predictive Modeling
-        │
-        ▼
-💼 Business Insights
-        │
-        ▼
-🎯 Strategic Recommendations
-        │
-        ▼
-📄 Final Report
-
-Through this project, we aim to:
-
-- Identify significant factors influencing healthcare insurance claims.
-- Discover patterns in healthcare expenditure and insurance costs.
-- Evaluate predictive models for insurance analytics.
-- Provide meaningful business insights through visual analytics.
-- Demonstrate how data-driven approaches can support smarter healthcare and insurance decisions.
+- 👤 Customer Information Collection
+- 📊 Automatic BMI Calculation
+- ❤️ Medical Risk Assessment
+- 🏥 Health Insurance Quote Generation
+- 💰 Monthly & Yearly Premium Calculation
+- 📋 Multiple Insurance Plan Selection
+- 🤖 AI-generated Insurance Report (OpenRouter)
+- 📄 PDF Quote Generation
+- 📈 Machine Learning Premium Prediction
+- 🧹 Dataset Cleaning & Preprocessing
 
 ---
+
+## 📋 User Workflow
+
+```
+Start Application
+        │
+        ▼
+Enter Personal Details
+        │
+        ▼
+Enter Lifestyle Information
+        │
+        ▼
+Medical History
+        │
+        ▼
+Select Coverage Amount
+        │
+        ▼
+Choose Insurance Policy
+        │
+        ▼
+Generate Insurance Quote
+        │
+        ▼
+AI Insurance Report
+        │
+        ▼
+Download PDF Quote
+```
+
+---
+
+## 📥 User Inputs
+
+### Personal Information
+
+- Name
+- Age
+- Gender
+- Height
+- Weight
+- Annual Income
+- Family Size
+- City
+
+### Lifestyle Information
+
+- Smoking Status
+- Alcohol Consumption
+- Exercise Level
+
+### Medical History
+
+- Diabetes
+- Blood Pressure
+- Heart Disease
+- Asthma
+- Thyroid
+- Previous Surgery
+- Other Diseases
+
+### Insurance Details
+
+Coverage Options
+
+- ₹5,00,000
+- ₹10,00,000
+- ₹15,00,000
+- ₹20,00,000
+
+Insurance Plans
+
+- Health Shield Plus
+- Care Protect Gold
+- Family Secure Max
+- Smart Health Elite
+- Premium Care 360
+
+---
+
+## 📊 Machine Learning
+
+The project uses a **Random Forest Regressor** to estimate insurance premiums based on customer attributes.
+
+### Workflow
+
+- Dataset Loading
+- Data Cleaning
+- Feature Engineering
+- Label Encoding
+- Train-Test Split
+- Random Forest Training
+- Premium Prediction
+
+---
+
+## 🤖 AI Recommendation
+
+The project integrates the **OpenRouter API** to generate a professional Health Insurance Report.
+
+The report includes:
+
+- Applicant Information
+- Insurance Plan Details
+- Policy Coverage
+- Eligibility Assessment
+- Final Insurance Summary
+
+> **Note:** The GitHub version does not include the OpenRouter API key. Users must provide their own API key to enable AI recommendations.
+
+---
+
+## 📄 PDF Report
+
+The application generates a downloadable PDF containing:
+
+- Applicant Details
+- Medical Information
+- Insurance Plan
+- Premium Details
+- AI Recommendation
+
+---
+
+## 📁 Dataset
+
+The dataset contains **38 insurance-related attributes**, including:
+
+- Customer Information
+- BMI
+- Lifestyle Factors
+- Medical History
+- Hospital Details
+- Claim Information
+- Policy Information
+- Claim Amount
+
+The dataset is cleaned and preprocessed before model training.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Scikit-learn
+- Random Forest Regressor
+- ReportLab
+- OpenRouter API
+
+
+---
+
+
+## 📸 Output
+
+The application generates:
+
+- Personalized Insurance Quote
+- Monthly Premium
+- Yearly Premium
+- Risk Category
+- AI-generated Insurance Report
+- Downloadable PDF
+
+---
+
 ## 👨‍💻 Author
 
-**Rajdeep Mandal**  
-B.Tech – Computer Science & Engineering (Data Science)  
+**Rajdeep Mandal**
+
+B.Tech – Computer Science & Engineering (Data Science)
+
 Heritage Institute of Technology, Kolkata
 
 ---
 
-## ⭐ Acknowledgement
-
-This project has been developed as part of the **Business Analytics** coursework to apply analytical techniques, data visualization, and machine learning concepts to a real-world healthcare insurance scenario. It demonstrates the practical application of business analytics for solving data-driven problems and supporting informed decision-making.
+## ⭐ If you found this project useful, consider giving it a star!
